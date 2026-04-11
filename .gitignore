@@ -30,3 +30,7 @@ Thumbs.db
 .env
 *.pem
 *.key
+
+# Allow result files
+!results/*.csv
+!logs/*.log

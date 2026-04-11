@@ -1,0 +1,16 @@
+Loading model...
+Processing 1351 cases...
+
+Saved to data/psych_diagnoses.parquet
+
+Diagnosis prevalence (confirmed, non-negated):
+  depression          :  540 (40.0%)
+  bipolar             :  369 (27.3%)
+  schizophrenia       :   54 (4.0%)
+  psychosis           :  117 (8.7%)
+  anxiety             :  266 (19.7%)
+  ptsd                :    6 (0.4%)
+  ocd                 :   22 (1.6%)
+  suicide             :  100 (7.4%)
+  dementia            :   44 (3.3%)
+  alzheimer           :   29 (2.1%)

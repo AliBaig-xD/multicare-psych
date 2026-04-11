@@ -1,0 +1,27 @@
+Total tests       : 112
+Significant (corr): 20
+
+Saved: results/statistical_summary.csv
+Saved: results/significant_findings.csv
+
+=== SIGNIFICANT FINDINGS (Bonferroni corrected) ===
+Cluster  0 | alzheimer       |  45.0% vs   1.5% rest | OR=52.85 | p_corr=0.0000 *** | ENRICHED
+Cluster  1 | anxiety         |  87.0% vs  18.5% rest | OR=25.72 | p_corr=0.0000 *** | ENRICHED
+Cluster  1 | dementia        |  30.4% vs   2.8% rest | OR=15.65 | p_corr=0.0000 *** | ENRICHED
+Cluster  1 | depression      |  78.3% vs  39.3% rest | OR= 5.19 | p_corr=0.0405 * | ENRICHED
+Cluster  2 | schizophrenia   |  25.0% vs   3.6% rest | OR= 9.27 | p_corr=0.0002 *** | ENRICHED
+Cluster  7 | bipolar         |  59.0% vs  26.4% rest | OR= 3.97 | p_corr=0.0017 ** | ENRICHED
+Cluster  7 | depression      |  10.3% vs  40.9% rest | OR= 0.18 | p_corr=0.0263 * | DEPLETED
+Cluster  8 | bipolar         |  66.1% vs  23.9% rest | OR= 6.14 | p_corr=0.0000 *** | ENRICHED
+Cluster  8 | depression      |  13.8% vs  42.3% rest | OR= 0.22 | p_corr=0.0000 *** | DEPLETED
+Cluster  9 | dementia        |  24.6% vs   2.2% rest | OR=14.25 | p_corr=0.0000 *** | ENRICHED
+Cluster  9 | depression      |  70.5% vs  38.5% rest | OR= 3.75 | p_corr=0.0001 *** | ENRICHED
+Cluster  9 | ptsd            |   4.9% vs   0.2% rest | OR=22.01 | p_corr=0.0013 ** | ENRICHED
+Cluster  9 | bipolar         |   4.9% vs  28.4% rest | OR= 0.15 | p_corr=0.0122 * | DEPLETED
+Cluster  9 | alzheimer       |   9.8% vs   1.8% rest | OR= 6.32 | p_corr=0.0170 * | ENRICHED
+Cluster 16 | bipolar         |  59.5% vs  26.3% rest | OR= 4.08 | p_corr=0.0005 *** | ENRICHED
+Cluster 17 | psychosis       |  34.8% vs   6.8% rest | OR= 7.32 | p_corr=0.0000 *** | ENRICHED
+Cluster 17 | suicide         |  23.6% vs   6.3% rest | OR= 4.67 | p_corr=0.0000 *** | ENRICHED
+Cluster 17 | schizophrenia   |  12.4% vs   3.4% rest | OR= 4.11 | p_corr=0.0114 * | ENRICHED
+Cluster 17 | anxiety         |  34.8% vs  18.6% rest | OR= 2.35 | p_corr=0.0386 * | ENRICHED
+Cluster 19 | psychosis       |  30.3% vs   7.4% rest | OR= 5.49 | p_corr=0.0000 *** | ENRICHED
