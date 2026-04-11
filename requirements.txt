@@ -1,0 +1,29 @@
+# Deep learning & embeddings
+torch
+torchvision
+transformers
+sentencepiece
+
+# Data
+pandas
+numpy
+scipy
+pyarrow          # needed for parquet read/write
+
+# ML / clustering
+scikit-learn
+hdbscan
+umap-learn
+
+# Images
+pillow
+
+# Viz & app
+plotly
+streamlit
+
+# MultiCaRe official toolkit
+multiversity
+
+# Utilities
+tqdm
