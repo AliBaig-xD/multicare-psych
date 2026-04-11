@@ -19,7 +19,7 @@ import plotly.express as px
 import streamlit as st
 from PIL import Image
 
-BASE_DIR       = "medical_datasets/psych_brain_multimodal"
+REPO_ROOT      = "/home/ubuntu/multicare-psych"
 CLUSTER_PATH   = "results/psych_clusters.parquet"
 
 
@@ -111,7 +111,7 @@ for _, row in sample.iterrows():
         img_col, text_col = st.columns([1, 2])
 
         with img_col:
-            img_path = os.path.join(BASE_DIR, str(row.get("image_path", "")))
+            img_path = os.path.join(REPO_ROOT, str(row.get("image_path", "")))
             if os.path.exists(img_path):
                 try:
                     img = Image.open(img_path).convert("RGB")
