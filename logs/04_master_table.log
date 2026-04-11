@@ -1,0 +1,19 @@
+Psych cases        : 5449
+Unique PMCIDs      : 4901
+Full image metadata: 130791
+Matched to psych   : 6132
+Brain/head radiology: 1515
+Resolving image paths...
+Dropped 164 rows (unresolved path or missing text)
+
+Saved 1351 rows to data/psych_brain_master.parquet
+
+Sample:
+          case_id                                                                                                image_path image_type radiology_region
+0  PMC10064861_01          medical_datasets/whole_multicare_dataset/PMC1/PMC10/PMC10064861_fneur-14-1142734-g001_A_1_2.webp  radiology             head
+1  PMC10064861_01          medical_datasets/whole_multicare_dataset/PMC1/PMC10/PMC10064861_fneur-14-1142734-g001_B_2_2.webp  radiology             head
+2  PMC10075267_01             medical_datasets/whole_multicare_dataset/PMC1/PMC10/PMC10075267_IMCRJ-16-233-g0002_A_1_2.webp  radiology             head
+3  PMC10075267_01             medical_datasets/whole_multicare_dataset/PMC1/PMC10/PMC10075267_IMCRJ-16-233-g0002_B_2_2.webp  radiology             head
+4  PMC10118976_01  medical_datasets/whole_multicare_dataset/PMC1/PMC10/PMC10118976_fneur-14-1151130-g001_undivided_1_1.webp  radiology             head
+
+Next step: run scripts/05_embed_cases.py

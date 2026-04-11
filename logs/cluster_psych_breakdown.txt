@@ -1,0 +1,80 @@
+
+=== Cluster 0 (72 cases) ===
+  schizophrenia       :   1 (1%)
+  bipolar             :   7 (10%)
+  depression          :  58 (81%)
+  psychosis           :   8 (11%)
+  anxiety             :  22 (31%)
+  ptsd                :   3 (4%)
+  dementia            :  41 (57%)
+  alzheimer           :  12 (17%)
+  suicide             :   6 (8%)
+  ocd                 :   1 (1%)
+
+=== Cluster 1 (182 cases) ===
+  schizophrenia       :   5 (3%)
+  bipolar             : 131 (72%)
+  depression          :  39 (21%)
+  psychosis           :   2 (1%)
+  anxiety             :  13 (7%)
+  alzheimer           :   1 (1%)
+  suicide             :   1 (1%)
+
+=== Cluster 2 (76 cases) ===
+  bipolar             :  12 (16%)
+  depression          :  47 (62%)
+  psychosis           :   2 (3%)
+  anxiety             :  16 (21%)
+  dementia            :   1 (1%)
+  suicide             :   8 (11%)
+  ocd                 :   2 (3%)
+
+=== Cluster 3 (97 cases) ===
+  bipolar             :  35 (36%)
+  depression          :  49 (51%)
+  psychosis           :   3 (3%)
+  anxiety             :  15 (15%)
+  dementia            :   1 (1%)
+  ocd                 :   1 (1%)
+
+=== Cluster 4 (75 cases) ===
+  schizophrenia       :   1 (1%)
+  bipolar             :  24 (32%)
+  depression          :  36 (48%)
+  psychosis           :   4 (5%)
+  anxiety             :  16 (21%)
+  ptsd                :   1 (1%)
+  dementia            :   2 (3%)
+  alzheimer           :   1 (1%)
+  suicide             :   3 (4%)
+  ocd                 :   2 (3%)
+
+=== Cluster 5 (75 cases) ===
+  schizophrenia       :   1 (1%)
+  bipolar             :  18 (24%)
+  depression          :  43 (57%)
+  psychosis           :   1 (1%)
+  anxiety             :  23 (31%)
+  suicide             :  21 (28%)
+  ocd                 :   3 (4%)
+
+=== Cluster 6 (110 cases) ===
+  schizophrenia       :   1 (1%)
+  bipolar             :  26 (24%)
+  depression          :  60 (55%)
+  psychosis           :   4 (4%)
+  anxiety             :  20 (18%)
+  dementia            :   2 (2%)
+  alzheimer           :   2 (2%)
+  suicide             :  12 (11%)
+
+=== Cluster 7 (159 cases) ===
+  schizophrenia       :  25 (16%)
+  bipolar             :  24 (15%)
+  depression          : 100 (63%)
+  psychosis           :  33 (21%)
+  anxiety             :  62 (39%)
+  dementia            :  22 (14%)
+  alzheimer           :   7 (4%)
+  suicide             :  32 (20%)
+  ocd                 :   4 (3%)

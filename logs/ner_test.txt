@@ -1,0 +1,23 @@
+/home/ubuntu/multicare-psych/env/py/lib/python3.12/site-packages/spacy/language.py:2195: FutureWarning: Possible set union at position 6328
+  deserializers["tokenizer"] = lambda p: self.tokenizer.from_disk(  # type: ignore[union-attr]
+
+Text: The patient was diagnosed with depression.
+Entities: [('patient', 'ENTITY'), ('diagnosed', 'ENTITY'), ('depression', 'ENTITY')]
+
+Text: No history of depression was found.
+Entities: [('No history', 'ENTITY'), ('depression', 'ENTITY')]
+
+Text: She had no prior diagnosis of bipolar disorder.
+Entities: [('diagnosis', 'ENTITY'), ('bipolar disorder', 'ENTITY')]
+
+Text: Family history of schizophrenia.
+Entities: [('Family history of', 'ENTITY'), ('schizophrenia', 'ENTITY')]
+
+Text: Rule out bipolar disorder.
+Entities: [('Rule out bipolar disorder', 'ENTITY')]
+
+Text: The patient presented with anxiety and suicidal ideation.
+Entities: [('patient', 'ENTITY'), ('anxiety', 'ENTITY'), ('suicidal ideation', 'ENTITY')]
+
+Text: Patient denied any history of psychosis.
+Entities: [('Patient', 'ENTITY'), ('history', 'ENTITY'), ('psychosis', 'ENTITY')]

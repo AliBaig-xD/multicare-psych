@@ -1,0 +1,6 @@
+Device: cpu
+Loading CLIP model: openai/clip-vit-base-patch32 ...
+Master table: 1351 rows
+
+Saved 1351 embeddings (1280-dim) to data/psych_brain_embeddings.parquet
+Next step: run scripts/06_cluster.py

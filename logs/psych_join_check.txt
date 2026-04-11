@@ -1,0 +1,11 @@
+Psych cases: 5449
+Unique PMCIDs: 4901
+
+Full captions: 130791
+Matched image rows: 6132
+                                                file      patient_id          image_type radiology_region
+28  PMC10008422_CCID-16-593-g0001_undivided_1_1.webp  PMC10008422_01  medical_photograph              NaN
+29          PMC10008422_CCID-16-593-g0002_a_1_2.webp  PMC10008422_01           pathology              NaN
+30          PMC10008422_CCID-16-593-g0002_b_2_2.webp  PMC10008422_01           pathology              NaN
+98                PMC10011424_gr1_undivided_1_1.webp  PMC10011424_01           radiology           thorax
+99                PMC10011424_gr2_undivided_1_1.webp  PMC10011424_01           radiology           thorax

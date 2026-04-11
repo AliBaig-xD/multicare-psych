@@ -1,0 +1,122 @@
+=== Cluster 0 (20 cases) | {'mri': 16, 'ct': 4} ===
+  psychosis           :   5.0%  p=0.8525 ns
+  anxiety             :  40.0%  p=0.0436 *
+  dementia            :   5.0%  p=1.0000 ns
+  alzheimer           :  45.0%  p=0.0000 ***
+
+=== Cluster 1 (23 cases) | {'mri': 20, 'ct': 3} ===
+  depression          :  78.3%  p=0.0004 ***
+  psychosis           :  13.0%  p=0.7040 ns
+  anxiety             :  87.0%  p=0.0000 ***
+  dementia            :  30.4%  p=0.0000 ***
+
+=== Cluster 2 (24 cases) | {'mri': 14, 'ct': 10} ===
+  depression          :  45.8%  p=0.7029 ns
+  schizophrenia       :  25.0%  p=0.0000 ***
+  psychosis           :  29.2%  p=0.0012 **
+
+=== Cluster 3 (42 cases) | {'mri': 32, 'pet': 8} ===
+  depression          :  52.4%  p=0.1315 ns
+  bipolar             :   9.5%  p=0.0142 *
+  psychosis           :  11.9%  p=0.6306 ns
+  anxiety             :  40.5%  p=0.0012 **
+  suicide             :   9.5%  p=0.8148 ns
+
+=== Cluster 4 (34 cases) | {'x_ray': 26, 'ct': 7} ===
+  depression          :  58.8%  p=0.0361 *
+  bipolar             :   8.8%  p=0.0241 *
+  anxiety             :  32.4%  p=0.0964 ns
+
+=== Cluster 5 (21 cases) | {'mri': 20, 'ct': 1} ===
+  depression          :  66.7%  p=0.0219 *
+  bipolar             :  28.6%  p=1.0000 ns
+  anxiety             :  23.8%  p=0.8399 ns
+
+=== Cluster 6 (28 cases) | {'mri': 13, 'ct': 8} ===
+  depression          :  35.7%  p=0.7874 ns
+  bipolar             :  17.9%  p=0.3573 ns
+  anxiety             :  17.9%  p=0.9950 ns
+
+=== Cluster 7 (39 cases) | {'mri': 34, 'ct': 3} ===
+  depression          :  10.3%  p=0.0002 ***
+  bipolar             :  59.0%  p=0.0000 ***
+  psychosis           :   7.7%  p=1.0000 ns
+  anxiety             :  15.4%  p=0.6300 ns
+
+=== Cluster 8 (109 cases) | {'mri': 79, 'ct': 30} ===
+  depression          :  13.8%  p=0.0000 ***
+  bipolar             :  66.1%  p=0.0000 ***
+  anxiety             :   6.4%  p=0.0005 ***
+
+=== Cluster 9 (61 cases) | {'pet': 21, 'spect': 17} ===
+  depression          :  70.5%  p=0.0000 ***
+  psychosis           :  18.0%  p=0.0151 *
+  anxiety             :  23.0%  p=0.6235 ns
+  suicide             :   8.2%  p=1.0000 ns
+  dementia            :  24.6%  p=0.0000 ***
+  alzheimer           :   9.8%  p=0.0002 ***
+
+=== Cluster 10 (54 cases) | {'ct': 29, 'mri': 16} ===
+  depression          :  50.0%  p=0.1634 ns
+  bipolar             :  29.6%  p=0.8149 ns
+  anxiety             :  37.0%  p=0.0020 **
+  suicide             :  20.4%  p=0.0006 ***
+
+=== Cluster 11 (25 cases) | {'mri': 22, 'ct': 3} ===
+  depression          :  40.0%  p=1.0000 ns
+  bipolar             :  28.0%  p=1.0000 ns
+
+=== Cluster 12 (35 cases) | {'ct': 27, 'mri': 4} ===
+  depression          :  45.7%  p=0.5974 ns
+  bipolar             :  31.4%  p=0.7177 ns
+  suicide             :   5.7%  p=0.9527 ns
+
+=== Cluster 13 (23 cases) | {'mri': 21, 'pet': 1} ===
+  depression          :  56.5%  p=0.1557 ns
+  anxiety             :  47.8%  p=0.0016 **
+  suicide             :   8.7%  p=1.0000 ns
+
+=== Cluster 14 (102 cases) | {'ct': 52, 'mri': 15} ===
+  depression          :  37.3%  p=0.6332 ns
+  bipolar             :  26.5%  p=0.9338 ns
+  anxiety             :  12.7%  p=0.0882 ns
+  ocd                 :   5.9%  p=0.0018 **
+  suicide             :   8.8%  p=0.7086 ns
+
+=== Cluster 15 (22 cases) | {'ct': 21, 'mri': 1} ===
+  depression          :  72.7%  p=0.0032 **
+  bipolar             :  13.6%  p=0.2261 ns
+  anxiety             :  18.2%  p=1.0000 ns
+
+=== Cluster 16 (42 cases) | {'mri': 26, 'ct': 13} ===
+  depression          :  19.0%  p=0.0080 **
+  bipolar             :  59.5%  p=0.0000 ***
+  psychosis           :   7.1%  p=0.9390 ns
+  anxiety             :  14.3%  p=0.4855 ns
+  suicide             :  11.9%  p=0.4048 ns
+
+=== Cluster 17 (89 cases) | {'mri': 78, 'ct': 10} ===
+  depression          :  49.4%  p=0.0759 ns
+  bipolar             :  22.5%  p=0.3485 ns
+  schizophrenia       :  12.4%  p=0.0001 ***
+  psychosis           :  34.8%  p=0.0000 ***
+  anxiety             :  34.8%  p=0.0003 ***
+  suicide             :  23.6%  p=0.0000 ***
+  dementia            :   7.9%  p=0.0261 *
+
+=== Cluster 18 (120 cases) | {'ct': 74, 'mri': 46} ===
+  depression          :  48.3%  p=0.0627 ns
+  bipolar             :  15.0%  p=0.0022 **
+  psychosis           :   6.7%  p=0.5199 ns
+  anxiety             :  23.3%  p=0.3516 ns
+  suicide             :  10.8%  p=0.1863 ns
+
+=== Cluster 19 (76 cases) | {'mri': 72, 'ct': 4} ===
+  depression          :  25.0%  p=0.0087 **
+  bipolar             :  14.5%  p=0.0142 *
+  schizophrenia       :  10.5%  p=0.0072 **
+  psychosis           :  30.3%  p=0.0000 ***
+  anxiety             :  19.7%  p=1.0000 ns
+  suicide             :   6.6%  p=0.9549 ns
+  dementia            :   5.3%  p=0.4954 ns
+

@@ -1,0 +1,6 @@
+Initialising MedicalDatasetCreator — this will download MultiCaRe v2.0 ...
+Downloading the MultiCaRe Dataset from Zenodo. This may take approximately 5 minutes.
+Importing and pre-processing the main files.
+Done!
+Done. MultiCaRe is available at ./medical_datasets/
+Next step: run scripts/02_build_psych_subset.py

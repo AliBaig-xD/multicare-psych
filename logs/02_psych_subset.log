@@ -1,0 +1,10 @@
+Loading MedicalDatasetCreator ...
+The MultiCaRe Dataset is already downloaded.
+Importing and pre-processing the main files.
+Done!
+Creating psych_brain_multimodal subset ...
+  Psychiatric terms : 19 terms
+  Brain image labels: ['mri', 'ct', 'head', 'brain', 'neuro', 'radiology']
+The psych_brain_multimodal was successfully created!
+Subset created at ./medical_datasets/psych_brain_multimodal/
+Next step: inspect the directory, then run scripts/03_inspect_schema.py

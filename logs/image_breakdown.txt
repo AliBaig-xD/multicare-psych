@@ -1,0 +1,24 @@
+image_type breakdown:
+image_type
+radiology             3166
+medical_photograph     972
+pathology              928
+chart                  416
+electrography          279
+endoscopy              198
+ophthalmic_imaging     173
+
+radiology_region breakdown:
+radiology_region
+head          1515
+thorax         727
+abdomen        391
+lower_limb     212
+neck           109
+pelvis          88
+upper_limb      79
+breast          24
+whole_body      21
+
+Brain/head/spine radiology images: 1515
+All radiology images: 3166

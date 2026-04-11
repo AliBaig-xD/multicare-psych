@@ -1,0 +1,26 @@
+Sample files:
+  file: PMC10064861_fneur-14-1142734-g001_A_1_2.webp
+  patient_id: PMC10064861_01
+  medical_datasets/whole_multicare_dataset/PMC1 exists
+
+  file: PMC10064861_fneur-14-1142734-g001_B_2_2.webp
+  patient_id: PMC10064861_01
+  medical_datasets/whole_multicare_dataset/PMC1 exists
+
+  file: PMC10075267_IMCRJ-16-233-g0002_A_1_2.webp
+  patient_id: PMC10075267_01
+  medical_datasets/whole_multicare_dataset/PMC1 exists
+
+  file: PMC10075267_IMCRJ-16-233-g0002_B_2_2.webp
+  patient_id: PMC10075267_01
+  medical_datasets/whole_multicare_dataset/PMC1 exists
+
+  file: PMC10118976_fneur-14-1151130-g001_undivided_1_1.webp
+  patient_id: PMC10118976_01
+  medical_datasets/whole_multicare_dataset/PMC1 exists
+
+
+Total brain images to work with: 1515
+
+Saving brain image list...
+Saved to data/brain_image_list.csv

@@ -1,0 +1,42 @@
+Loading embeddings ...
+Embeddings shape: (1351, 1280)
+Scaling ...
+Running UMAP ...
+UMAP(angular_rp_forest=True, metric='cosine', n_jobs=1, n_neighbors=30, random_state=42, verbose=True)
+Sat Apr 11 04:52:26 2026 Construct fuzzy simplicial set
+Sat Apr 11 04:52:30 2026 Finding Nearest Neighbors
+Sat Apr 11 04:52:35 2026 Finished Nearest Neighbor Search
+Sat Apr 11 04:52:40 2026 Construct embedding
+	completed  0  /  500 epochs
+	completed  50  /  500 epochs
+	completed  100  /  500 epochs
+	completed  150  /  500 epochs
+	completed  200  /  500 epochs
+	completed  250  /  500 epochs
+	completed  300  /  500 epochs
+	completed  350  /  500 epochs
+	completed  400  /  500 epochs
+	completed  450  /  500 epochs
+Sat Apr 11 04:52:43 2026 Finished embedding
+UMAP output shape: (1351, 2)
+Running HDBSCAN ...
+
+Clusters found (excl. noise): 8
+Noise points               : 505 (37.4%)
+
+Saved to results/psych_clusters.parquet
+
+Cluster size breakdown:
+cluster
+-1    505
+ 1    182
+ 7    159
+ 6    110
+ 3     97
+ 2     76
+ 4     75
+ 5     75
+ 0     72
+
+Next step: run the Streamlit atlas
+  streamlit run app/atlas.py --server.port 8501 --server.address 0.0.0.0

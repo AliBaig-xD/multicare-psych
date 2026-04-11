@@ -1,0 +1,46 @@
+Clusters: 20
+Noise: 362 (26.8%)
+
+Cluster sizes:
+cluster
+-1     362
+ 18    120
+ 8     109
+ 14    102
+ 17     89
+ 19     76
+ 9      61
+ 10     54
+ 16     42
+ 3      42
+ 7      39
+ 12     35
+ 4      34
+ 6      28
+ 11     25
+ 2      24
+ 13     23
+ 1      23
+ 15     22
+ 5      21
+ 0      20
+Cluster  0 ( 20 cases) | imaging: {'mri': 16, 'ct': 4} | dominant: bipolar 50%
+Cluster  1 ( 23 cases) | imaging: {'mri': 20, 'ct': 3} | dominant: anxiety 83%
+Cluster  2 ( 24 cases) | imaging: {'mri': 14, 'ct': 10} | dominant: depression 67%
+Cluster  3 ( 42 cases) | imaging: {'mri': 32, 'pet': 8} | dominant: depression 67%
+Cluster  4 ( 34 cases) | imaging: {'x_ray': 26, 'ct': 7} | dominant: depression 71%
+Cluster  5 ( 21 cases) | imaging: {'mri': 20, 'ct': 1} | dominant: depression 67%
+Cluster  6 ( 28 cases) | imaging: {'mri': 13, 'ct': 8} | dominant: depression 50%
+Cluster  7 ( 39 cases) | imaging: {'mri': 34, 'ct': 3} | dominant: bipolar 74%
+Cluster  8 (109 cases) | imaging: {'mri': 79, 'ct': 30} | dominant: bipolar 73%
+Cluster  9 ( 61 cases) | imaging: {'pet': 21, 'spect': 17} | dominant: depression 87%
+Cluster 10 ( 54 cases) | imaging: {'ct': 29, 'mri': 16} | dominant: depression 56%
+Cluster 11 ( 25 cases) | imaging: {'mri': 22, 'ct': 3} | dominant: depression 56%
+Cluster 12 ( 35 cases) | imaging: {'ct': 27, 'mri': 4} | dominant: depression 51%
+Cluster 13 ( 23 cases) | imaging: {'mri': 21, 'pet': 1} | dominant: depression 57%
+Cluster 14 (102 cases) | imaging: {'ct': 52, 'mri': 15} | dominant: depression 46%
+Cluster 15 ( 22 cases) | imaging: {'ct': 21, 'mri': 1} | dominant: depression 82%
+Cluster 16 ( 42 cases) | imaging: {'mri': 26, 'ct': 13} | dominant: bipolar 60%
+Cluster 17 ( 89 cases) | imaging: {'mri': 78, 'ct': 10} | dominant: depression 67%
+Cluster 18 (120 cases) | imaging: {'ct': 74, 'mri': 46} | dominant: depression 61%
+Cluster 19 ( 76 cases) | imaging: {'mri': 72, 'ct': 4} | dominant: depression 32%

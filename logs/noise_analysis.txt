@@ -1,0 +1,47 @@
+Noise cluster: 505 cases
+
+Imaging breakdown:
+image_subtype
+mri             342
+ct              125
+pet              15
+x_ray            15
+spect             3
+scintigraphy      3
+tractography      1
+ultrasound        1
+
+Radiology views:
+radiology_view
+axial              273
+sagittal           192
+oblique             19
+frontal             16
+ultrasound_view      3
+occlusal             1
+panoramic            1
+
+Psychiatric terms in noise:
+  schizophrenia       :  32 (6%)
+  bipolar             : 117 (23%)
+  depression          : 252 (50%)
+  psychosis           :  35 (7%)
+  anxiety             : 136 (27%)
+  dementia            :  27 (5%)
+  alzheimer           :  19 (4%)
+  suicide             :  44 (9%)
+  ocd                 :   6 (1%)
+
+3 sample noise cases:
+
+--- Case 1: PMC5067900_01 ---
+Imaging: mri | axial
+A 53-year-old man was initially diagnosed with melanoma of the left forearm: nodular melanoma, Breslow thickness 2.4 mm, at least Clark level IV, mitotic rate of 2-4/mm2, no lymphovascular or perineural invasion, and no regression, ulceration, or satellitosis. He underwent wide local excision and sentinel lymph node biopsy with one lymph node with metastatic melanoma (microscopic metastases with 2
+
+--- Case 2: PMC6529526_01 ---
+Imaging: mri | axial
+A 72-year-old man presented with a 5-year history of paroxysmal, severe and electrical right facial pain in V2 and V3 trigeminal distributions, and complained of typical tic douloureux. Episodes of pain were triggered by washing face and brushing teeth with cold water. It was not relieved by over-the-counter medications. In the third year of the disease, magnetic resonance angiogram (MRA) showed v
+
+--- Case 3: PMC11813643_01 ---
+Imaging: mri | sagittal
+A 24-year-old male with a history of normal neurological development during childhood presented with a two-year history of epilepsy of unknown etiology. His epilepsy was initially treated with valproic acid, but treatment was discontinued after one year due to drowsiness and lack of follow-up caused by the SARS-CoV-2 pandemic. He was admitted to the emergency department following mild cranial trau
