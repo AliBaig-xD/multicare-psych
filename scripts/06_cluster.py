@@ -29,13 +29,13 @@ MASTER_PATH = "data/psych_brain_master.parquet"
 OUT_PATH    = "results/psych_clusters.parquet"
 
 # ── Tunable hyperparameters ───────────────────────────────────────────────────
-UMAP_N_NEIGHBORS  = 30
-UMAP_MIN_DIST     = 0.1
+UMAP_N_NEIGHBORS  = 15
+UMAP_MIN_DIST     = 0.05
 UMAP_METRIC       = "cosine"
 UMAP_RANDOM_STATE = 42
 
-HDBSCAN_MIN_CLUSTER_SIZE = 30
-HDBSCAN_MIN_SAMPLES      = 10
+HDBSCAN_MIN_CLUSTER_SIZE = 20
+HDBSCAN_MIN_SAMPLES      = 5
 # ─────────────────────────────────────────────────────────────────────────────
 
 
