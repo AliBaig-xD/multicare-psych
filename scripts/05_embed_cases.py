@@ -69,7 +69,7 @@ def main():
         batch_idx    = []
 
         for idx, row in batch_df.iterrows():
-            img_path = os.path.join(BASE_DIR, str(row["image_path"]))
+            img_path = str(row["image_path"])  # already a full relative path from repo root
             img = load_image(img_path)
             if img is None:
                 # Skip rows where the image file is missing / unreadable
@@ -77,7 +77,7 @@ def main():
 
             batch_images.append(img)
             case_text = str(row.get("case_text", ""))
-            caption   = str(row.get("image_caption", ""))
+            caption   = str(row.get("caption", ""))
             batch_texts.append(case_text[:1000] + " " + caption[:500])
             batch_idx.append(idx)
 
