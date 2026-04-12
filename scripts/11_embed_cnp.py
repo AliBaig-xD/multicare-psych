@@ -111,9 +111,12 @@ def embed_clip(df: pd.DataFrame, model, processor, device) -> dict:
         ).to(device)
 
         with torch.no_grad():
-            feats = model.get_image_features(**inputs)   # (n_views, 512)
+            outputs = model.get_image_features(**inputs)
+            if hasattr(outputs, "pooler_output"):
+                feats = outputs.pooler_output
+            else:
+                feats = outputs
             feats = torch.nn.functional.normalize(feats, p=2, dim=-1)
-            # Average across views
             mean_feat = feats.mean(dim=0)
             mean_feat = torch.nn.functional.normalize(mean_feat.unsqueeze(0), p=2).squeeze(0)
 
