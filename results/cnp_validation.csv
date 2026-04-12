@@ -1,0 +1,6 @@
+metric,value,interpretation
+ARI,-0.027033993589576196,cluster-diagnosis alignment
+NMI,0.06220224816591171,mutual information clusters vs diagnoses
+balanced_accuracy_mean,0.25,5-fold CV supervised classification
+balanced_accuracy_std,0.0,standard deviation across folds
+chance_level,0.25,random baseline

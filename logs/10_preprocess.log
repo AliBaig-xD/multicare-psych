@@ -1,0 +1,21 @@
+Participants: 272
+Diagnosis column: diagnosis
+diagnosis
+CONTROL    130
+SCHZ        50
+BIPOLAR     49
+ADHD        43
+
+Processed    : 265 subjects
+Total slices : 795
+Missing/error: 7
+
+Diagnosis breakdown in processed data:
+diagnosis
+CONTROL    125
+SCHZ        50
+BIPOLAR     49
+ADHD        41
+
+Saved to cnp_data/cnp_master.parquet
+Next step: run scripts/11_embed_cnp.py

@@ -1,0 +1,47 @@
+Subjects: 265
+Diagnosis breakdown:
+diagnosis
+CONTROL    125
+SCHZ        50
+BIPOLAR     49
+ADHD        41
+
+Embedding dim: 560
+Running UMAP...
+UMAP(angular_rp_forest=True, metric='cosine', min_dist=0.05, n_jobs=1, random_state=42, verbose=True)
+Sun Apr 12 04:06:41 2026 Construct fuzzy simplicial set
+Sun Apr 12 04:06:41 2026 Finding Nearest Neighbors
+Sun Apr 12 04:06:46 2026 Finished Nearest Neighbor Search
+Sun Apr 12 04:06:50 2026 Construct embedding
+	completed  0  /  500 epochs
+	completed  50  /  500 epochs
+	completed  100  /  500 epochs
+	completed  150  /  500 epochs
+	completed  200  /  500 epochs
+	completed  250  /  500 epochs
+	completed  300  /  500 epochs
+	completed  350  /  500 epochs
+	completed  400  /  500 epochs
+	completed  450  /  500 epochs
+Sun Apr 12 04:06:52 2026 Finished embedding
+Running HDBSCAN...
+
+Clusters found : 5
+Noise          : 14 (5.3%)
+
+Adjusted Rand Index (ARI): -0.0270  (1.0 = perfect, 0 = random)
+Normalized Mutual Info    : 0.0622  (1.0 = perfect, 0 = random)
+Silhouette Score          : 0.4010  (1.0 = perfect separation)
+
+Cluster × Diagnosis breakdown:
+  Cluster -1 ( 14 subjects) | dominant: CONTROL 36%  | {'CONTROL': 5, 'BIPOLAR': 4, 'SCHZ': 3, 'ADHD': 2}
+  Cluster  0 ( 20 subjects) | dominant: CONTROL 60%  | {'CONTROL': 12, 'SCHZ': 5, 'BIPOLAR': 3}
+  Cluster  1 (132 subjects) | dominant: CONTROL 36%  | {'CONTROL': 48, 'BIPOLAR': 29, 'ADHD': 28, 'SCHZ': 27}
+  Cluster  2 ( 36 subjects) | dominant: CONTROL 47%  | {'CONTROL': 17, 'SCHZ': 11, 'BIPOLAR': 5, 'ADHD': 3}
+  Cluster  3 ( 12 subjects) | dominant: CONTROL 58%  | {'CONTROL': 7, 'ADHD': 4, 'SCHZ': 1}
+  Cluster  4 ( 51 subjects) | dominant: CONTROL 71%  | {'CONTROL': 36, 'BIPOLAR': 8, 'ADHD': 4, 'SCHZ': 3}
+
+Saved clusters to cnp_data/cnp_clusters.parquet
+Saved summary  to results/cnp_cluster_summary.csv
+
+Next step: run scripts/13_validate_cnp.py
