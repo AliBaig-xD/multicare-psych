@@ -1,0 +1,38 @@
+/home/ubuntu/multicare-psych/env/py/lib/python3.12/site-packages/umap/umap_.py:1952: UserWarning: n_jobs value 1 overridden to 1 by setting random_state. Use no seed for parallelism.
+  warn(
+/home/ubuntu/multicare-psych/env/py/lib/python3.12/site-packages/umap/umap_.py:1952: UserWarning: n_jobs value 1 overridden to 1 by setting random_state. Use no seed for parallelism.
+  warn(
+/home/ubuntu/multicare-psych/env/py/lib/python3.12/site-packages/umap/umap_.py:1952: UserWarning: n_jobs value 1 overridden to 1 by setting random_state. Use no seed for parallelism.
+  warn(
+
+==================================================
+CLUSTERING: IMAGE ONLY (CLIP visual features)
+==================================================
+Clusters: 2, Noise: 0.0%
+
+Bipolar enrichment per cluster:
+
+==================================================
+CLUSTERING: TEXT ONLY (CLIP text features)
+==================================================
+Clusters: 21, Noise: 30.8%
+
+Bipolar enrichment per cluster:
+  Cluster 1 (53 cases): bipolar 34.0% p=0.3416
+  Cluster 7 (25 cases): bipolar 84.0% p=0.0000
+  Cluster 8 (103 cases): bipolar 53.4% p=0.0000
+  Cluster 15 (22 cases): bipolar 31.8% p=0.8127
+  Cluster 18 (41 cases): bipolar 31.7% p=0.6431
+  Cluster 19 (54 cases): bipolar 31.5% p=0.5852
+
+==================================================
+CLUSTERING: COMBINED (image + text)
+==================================================
+Clusters: 18, Noise: 33.6%
+
+Bipolar enrichment per cluster:
+  Cluster 2 (42 cases): bipolar 59.5% p=0.0000
+  Cluster 3 (102 cases): bipolar 61.8% p=0.0000
+  Cluster 6 (45 cases): bipolar 35.6% p=0.2748
+  Cluster 11 (36 cases): bipolar 30.6% p=0.8003
+  Cluster 12 (43 cases): bipolar 58.1% p=0.0000
