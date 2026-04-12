@@ -111,11 +111,11 @@ def embed_clip(df: pd.DataFrame, model, processor, device) -> dict:
         ).to(device)
 
         with torch.no_grad():
-            feats = model.get_image_features(**inputs)
-            feats = feats / feats.norm(p=2, dim=-1, keepdim=True)
+            feats = model.get_image_features(**inputs)   # (n_views, 512)
+            feats = torch.nn.functional.normalize(feats, p=2, dim=-1)
             # Average across views
             mean_feat = feats.mean(dim=0)
-            mean_feat = mean_feat / mean_feat.norm()
+            mean_feat = torch.nn.functional.normalize(mean_feat.unsqueeze(0), p=2).squeeze(0)
 
         sub_embeddings[sub_id] = mean_feat.cpu().numpy()
 
