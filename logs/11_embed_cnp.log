@@ -1,0 +1,24 @@
+Device: cuda
+GPU: Tesla T4
+Subjects to embed: 265
+
+[1/2] CLIP embedding on 2D slices...
+  CLIP embeddings: 265 subjects
+
+[2/2] Volumetric 3D encoding (ROI-based brain fingerprint)...
+  Loading brain atlas...
+[fetch_atlas_harvard_oxford] Dataset found in /home/alibaig0324/nilearn_data/fsl
+  Atlas loaded: 48 ROIs
+  Volumetric embeddings: 265 subjects
+
+Saved 265 subject embeddings to cnp_data/cnp_embeddings.parquet
+Embedding dim: 560
+
+Diagnosis breakdown:
+diagnosis
+CONTROL    125
+SCHZ        50
+BIPOLAR     49
+ADHD        41
+
+Next step: run scripts/12_cluster_cnp.py

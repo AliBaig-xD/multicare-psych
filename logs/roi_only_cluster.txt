@@ -1,0 +1,13 @@
+/home/alibaig0324/multicare-psych/env/py/lib/python3.10/site-packages/umap/umap_.py:1952: UserWarning: n_jobs value 1 overridden to 1 by setting random_state. Use no seed for parallelism.
+  warn(
+ROI features only: (265, 48)
+ROI-only ARI: 0.0147
+ROI-only NMI: 0.0396
+Clusters: 6, Noise: 11
+Cluster -1 ( 11) | {'CONTROL': 6, 'BIPOLAR': 3, 'SCHZ': 1, 'ADHD': 1}
+Cluster  0 ( 25) | {'CONTROL': 10, 'SCHZ': 6, 'ADHD': 5, 'BIPOLAR': 4}
+Cluster  1 ( 56) | {'CONTROL': 22, 'SCHZ': 22, 'BIPOLAR': 9, 'ADHD': 3}
+Cluster  2 ( 17) | {'CONTROL': 9, 'SCHZ': 4, 'ADHD': 3, 'BIPOLAR': 1}
+Cluster  3 ( 23) | {'CONTROL': 11, 'BIPOLAR': 7, 'ADHD': 3, 'SCHZ': 2}
+Cluster  4 ( 51) | {'CONTROL': 26, 'BIPOLAR': 11, 'ADHD': 10, 'SCHZ': 4}
+Cluster  5 ( 82) | {'CONTROL': 41, 'ADHD': 16, 'BIPOLAR': 14, 'SCHZ': 11}

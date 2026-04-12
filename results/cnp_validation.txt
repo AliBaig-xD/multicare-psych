@@ -1,0 +1,59 @@
+======================================================================
+CNP VALIDATION REPORT — Phase 2
+MultiCaRe Psychiatric Imaging Atlas
+======================================================================
+
+Total subjects : 265
+
+Diagnosis breakdown:
+  CONTROL             : 125
+  SCHZ                : 50
+  BIPOLAR             : 49
+  ADHD                : 41
+
+======================================================================
+TEST 1: Unsupervised cluster alignment with diagnoses
+======================================================================
+
+Adjusted Rand Index (ARI): -0.0270
+  > 0.1  = weak alignment
+  > 0.3  = moderate alignment
+  > 0.5  = strong alignment (publishable)
+
+Normalized Mutual Info   : 0.0622
+
+* RESULT: Weak alignment — clusters driven by non-diagnostic factors *
+
+======================================================================
+TEST 2: Bipolar vs Depression separation (key Phase 1 finding)
+======================================================================
+
+Cluster composition by diagnosis:
+diagnosis  ADHD  BIPOLAR  CONTROL  SCHZ
+cluster                                
+-1            2        4        5     3
+ 0            0        3       12     5
+ 1           28       29       48    27
+ 2            3        5       17    11
+ 3            4        0        7     1
+ 4            4        8       36     3
+
+======================================================================
+TEST 3: Supervised classification accuracy from embeddings
+(How well do the embeddings encode diagnostic information?)
+======================================================================
+
+5-fold cross-validated balanced accuracy: 0.250 ± 0.000
+Chance level (random): 0.250
+Classes: ['ADHD', 'BIPOLAR', 'CONTROL', 'SCHZ']
+
+* Embeddings show limited diagnostic separability *
+
+======================================================================
+SUMMARY
+======================================================================
+
+ARI                      : -0.0270
+NMI                      : 0.0622
+Classification accuracy  : 0.250 ± 0.000
+Chance level             : 0.250
