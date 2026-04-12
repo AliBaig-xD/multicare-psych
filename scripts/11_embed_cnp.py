@@ -46,7 +46,7 @@ class VolumetricEncoder:
         # Use Harvard-Oxford cortical atlas ROIs
         print("  Loading brain atlas...")
         self.atlas = datasets.fetch_atlas_harvard_oxford("cort-maxprob-thr25-2mm")
-        self.atlas_img = nib.load(self.atlas.maps)
+        self.atlas_img = self.atlas.maps
         self.atlas_data = self.atlas_img.get_fdata()
         self.n_rois = int(self.atlas_data.max())
         print(f"  Atlas loaded: {self.n_rois} ROIs")
